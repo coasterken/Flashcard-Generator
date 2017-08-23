@@ -1,0 +1,22 @@
+{
+  "name": "flashcard",
+  "version": "1.0.0",
+  "description": "flashcard project",
+  "main": "input.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coasterken/Flashcard-Generator.git"
+  },
+  "author": "Ken Thompson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coasterken/Flashcard-Generator/issues"
+  },
+  "homepage": "https://github.com/coasterken/Flashcard-Generator#readme",
+  "dependencies": {
+    "inquirer": "^3.2.2"
+  }
+}
