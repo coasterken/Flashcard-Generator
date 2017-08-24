@@ -1,11 +1,15 @@
 //main file for processing cards
 
+//******************************************** */
+//****Did not use NEW keyword here to test scope-safe constructor  */
+//******************************************** */
+
 var BasicCard = require("./BasicCard");
 var ClozeCard = require("./ClozeCard");
 
 console.log("------- Basic Card ------------");
 
-var firstPresident = new BasicCard(
+var firstPresident = BasicCard(
     "Who was the first president of the United States?", "George Washington");
 
 // "Who was the first president of the United States?"
@@ -16,7 +20,7 @@ console.log("Back Card: " + firstPresident.back);
 
 console.log("------- Cloze Card ------------");
 
-var firstPresidentCloze = new ClozeCard(
+var firstPresidentCloze = ClozeCard(
     "George Washington was the first president of the United States.", "George Washington");
 
 // "George Washington"
